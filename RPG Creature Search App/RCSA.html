@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>RPG Creature Search</title>
+    <link rel="stylesheet" href="RCSA.css" />
+  </head>
+  <body>
+    <main class="container">
+      <h1>RPG Creature Search App</h1>
+
+      <form id="search-form" class="search" onsubmit="return false;">
+        <label for="search-input">Search for a creature by name or ID</label>
+        <div class="controls">
+          <!-- required input element with id "search-input" -->
+          <input
+            id="search-input"
+            type="text"
+            placeholder="e.g. Pyrolynx or 1"
+            required
+          />
+          <!-- button element with id "search-button" -->
+          <button id="search-button" type="button">Search</button>
+        </div>
+      </form>
+
+      <section class="creature-card" aria-live="polite">
+        <div class="creature-header">
+          <h2 id="creature-name">—</h2>
+          <div id="creature-id">—</div>
+        </div>
+
+        <div class="creature-meta">
+          <div id="weight">—</div>
+          <div id="height">—</div>
+        </div>
+
+        <div class="types-wrapper">
+          <h3>Types</h3>
+          <!-- element with id "types" -->
+          <div id="types" class="types"></div>
+        </div>
+
+        <div class="stats">
+          <div class="stat">
+            <strong>HP</strong>
+            <div id="hp">—</div>
+          </div>
+          <div class="stat">
+            <strong>Attack</strong>
+            <div id="attack">—</div>
+          </div>
+          <div class="stat">
+            <strong>Defense</strong>
+            <div id="defense">—</div>
+          </div>
+          <div class="stat">
+            <strong>Special Attack</strong>
+            <div id="special-attack">—</div>
+          </div>
+          <div class="stat">
+            <strong>Special Defense</strong>
+            <div id="special-defense">—</div>
+          </div>
+          <div class="stat">
+            <strong>Speed</strong>
+            <div id="speed">—</div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="note">
+        <small>Data from freeCodeCamp's RPG Creature API.</small>
+      </footer>
+    </main>
+
+    <script src="RCSA.js"></script>
+  </body>
+</html>

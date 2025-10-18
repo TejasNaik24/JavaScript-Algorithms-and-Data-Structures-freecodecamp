@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cash Register</title>
+    <link rel="stylesheet" href="CR.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Cash Register</h1>
+      <p>Price of item: <span id="price-display">$19.50</span></p>
+      <label for="cash">Enter cash provided:</label>
+      <input
+        type="number"
+        id="cash"
+        step="0.01"
+        min="0"
+        placeholder="Enter cash amount"
+      />
+      <button id="purchase-btn">Purchase</button>
+
+      <div id="change-due"></div>
+    </div>
+
+    <script src="CR.js"></script>
+  </body>
+</html>
