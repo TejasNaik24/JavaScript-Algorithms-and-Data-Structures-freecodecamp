@@ -13,20 +13,20 @@ Each project demonstrates practical applications of JavaScript logic, from data 
 
 ## ✅ Completed Projects
 
-### 🏛️ Roman Numeral Converter
-A program that converts any given number into its Roman numeral equivalent, showcasing number manipulation and mapping techniques.
-
-### 🧾 Cash Register
-A full cash register simulation that calculates change using available currency denominations and returns the appropriate result using precise floating-point arithmetic.
-
-### 🧬 Caesars Cipher
-An implementation of the classic ROT13 cipher, demonstrating string manipulation, character encoding, and the use of modular arithmetic.
-
-### 🔍 Telephone Number Validator
-A robust validation program that checks if a given string is a valid U.S. phone number format using **regular expressions**.
-
 ### 🧠 Palindrome Checker
-An algorithm that checks if a given string reads the same backward as forward, accounting for punctuation, spaces, and letter casing.
+An algorithm that checks whether a given string is a palindrome — reading the same backward and forward — while ignoring punctuation, spacing, and case sensitivity.
+
+### 🏛️ Roman Numeral Converter
+A converter that transforms any positive integer into its Roman numeral equivalent, showcasing mapping logic and efficient looping structures.
+
+### 📞 Telephone Number Validator
+A JavaScript program that validates U.S. telephone number formats using **regular expressions**, ensuring accurate pattern recognition and input validation.
+
+### 💵 Cash Register
+A complete cash register simulation that determines proper change using available currency denominations, handling floating-point arithmetic with precision.
+
+### ⚔️ RPG Creature Search App
+A fun and interactive web app that lets users search for RPG-style creatures, applying **JavaScript DOM manipulation**, **API fetching**, and dynamic rendering techniques.
 
 ---
 
@@ -43,4 +43,5 @@ Each folder contains one certification project:
 ---
 
 💡 Built entirely using **JavaScript**, emphasizing clean, readable code and strong foundational programming principles.
+
 
