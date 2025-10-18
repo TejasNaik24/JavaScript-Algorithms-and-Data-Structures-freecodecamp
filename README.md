@@ -40,8 +40,5 @@ Each folder contains one certification project:
 - `telephone-number-validator`
 - `palindrome-checker`
 
----
-
-💡 Built entirely using **JavaScript**, emphasizing clean, readable code and strong foundational programming principles.
 
 
