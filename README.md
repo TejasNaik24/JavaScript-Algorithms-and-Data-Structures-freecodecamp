@@ -7,7 +7,7 @@ Each project demonstrates practical applications of JavaScript logic, from data 
 
 ---
 
-👉 Check out my [Certification](https://www.freecodecamp.org/certification/fccad7f82ea-5cfc-40bf-8f87-ff8d401f30c0/javascript-algorithms-and-data-structures) here!
+👉 Check out my [Certification](https://www.freecodecamp.org/certification/fccad7f82ea-5cfc-40bf-8f87-ff8d401f30c0/javascript-algorithms-and-data-structures-v8) here!
 
 ---
 
@@ -43,3 +43,4 @@ Each folder contains one certification project:
 ---
 
 💡 Built entirely using **JavaScript**, emphasizing clean, readable code and strong foundational programming principles.
+
